@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CodeLab</string>
+    <string name="avatar_image">Avatar Image</string>
+    <string name="like_button">Like Button</string>
+    <string name="send_message">send message</string>
+    <string name="profile_image">profile image</string>
+    <string name="william">William</string>
+    <string name="_250k">250k likes</string>
+    <string name="captions">Hi! Let\'s learn android and get certificate.</string>
+</resources>

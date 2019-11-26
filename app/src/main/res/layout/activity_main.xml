@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 1: Ubahlah constraint layout menjadi Relative Layout kemudian tambahkan komponen padding
+    Catatan: Komponen padding berukuran 16dp (density pixel).
+    16 dp adalah ukuran normal dari padding -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO 2: Buatlah sebuah gambar untuk foto profil resource untuk foto profil sudah tersedia
+        Untuk menambahkan gambar gunakan atribut src. Jangan lupa untuk menambahkan id. -->
+
+    <!-- TODO 3: Buatlah sebuah text yang memuat nama profil.
+        Tambahkan id.
+        Gunakan atribut text untuk menulis nama.
+        Atribut Penting:
+        layout_toEndOf dengan value yaitu id dari gambar profil -->
+
+    <!-- TODO 4: Buatlah sebuah gambar untuk gambar postingan.
+        Tambahkan id
+        Gunakan atribut src untuk memasukkan gambar ke ImageView.
+        gunakan width = match_parrent dan height 300dp.
+        Tambahkan scaleType dengan value centerCrop. -->
+
+    <!-- TODO 5: Buatlah sebuah ImageButton untuk membuat button like
+        Tambajkan id
+        set width dan height ke wrap_content
+        gunakan atribut src untuk menambahkan gambar atau icon like
+        Atribut Penting:
+        layout_bellow: dengan valuenya yaitu id dari gambar postingan
+        set juga background ke Transparent dengan atribut background
+        dengan value @android:color/transparent -->
+
+    <!-- TODO 6: Buatlah sebuah ImageButton untuk membuat button message
+        Tambahkan id
+        set width dan height ke wrap_content
+        gunakan atribut src untuk menambahkan gambar atau icon message
+        Atribut Penting:
+        layout_bellow: dengan valuenya yaitu id dari gambar postingan
+        layout_toEndOf: dengan valuenya yaitu id dari button like
+        set juga background ke Transparent dengan atribut background
+        dengan value @android:color/transparent -->
+
+    <!-- TODO 7: Buatlah sebuah text dengan isinya yaitu jumlah like pada postingan
+        Tambahkan id
+        set width dan height ke wrap_content
+        Atribut Penting:
+        layout_bellow: dengan valuenya yaitu id dari like button
+        set juga text color menjadi hitam
+        dan text style menjadi bold -->
+
+    <!-- TODO 8: Buatlah sebuah text dengan isinya yaitu nama yang isinya sama dengan nama profil
+        Tambahkan id
+        set width dan height ke warp_content
+         Atribut Penting:
+         layout_bellow: dengan valuenya yaitu id dari text jumlah like
+         set juga text color mejadi warna hitam dan text style menjadi bold -->
+
+    <!-- TODO 9: Buatlah sebuah text dengan isinya yaitu caption layaknya pada instagram
+        Tambahkan id.
+        set width dan height ke wrap_content
+        Atribut Penting:
+        layout_bellow: dengan valuenya yaitu id dari text jumlah like
+        layout_toEndOf: dengan valuenya yaitu id dari text nama
+        set juga text color menjadi hitam -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
